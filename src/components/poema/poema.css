@@ -1,0 +1,19 @@
+.text-end{
+    text-align: end;
+}
+.poema__dist {
+    display: flex;
+    gap: 1rem;
+}
+.poema {
+    padding: 4rem 0;
+    background: #fafafa;
+}
+@media (max-width:76.8rem) {
+    .poema__dist {
+        flex-direction: column;
+    }
+}
+.poema p {
+    padding: 0.5rem;
+}

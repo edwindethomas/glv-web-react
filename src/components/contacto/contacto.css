@@ -1,0 +1,34 @@
+.contacto{
+    padding: 8rem 0 0;
+    background: #ff0000;
+    color: #fafafa;
+}
+.info-footer__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto p,
+.contacto a{
+    color: inherit;
+}
+.dir{
+    width: 30%;
+}
+.contact {
+    width: 30%;
+}
+.arch {
+    width: 30%;
+}
+.footer__bajo {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.arch a:hover {
+    background: #ff0000;
+}
+.arch .archivos__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+}

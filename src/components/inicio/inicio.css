@@ -1,0 +1,24 @@
+.social-media__container {
+    padding: 8rem 0;
+    background:linear-gradient(rgba(255, 0, 0, 0.300),rgba(255, 0, 0, 0.300)), url('./../../../public/assets/images/bancada-pri-2021-2024.jpg');
+    background-size: cover;
+    object-fit: cover;
+
+}
+.social-media__container h2 {
+    color: #fafafa;
+    font-size: 4.8rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.social-media__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:50rem) {
+    .social-media__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}

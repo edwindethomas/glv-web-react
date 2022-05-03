@@ -1,0 +1,21 @@
+.estructura {
+    padding: 8rem 0;
+    background: #fafafa;
+    color: rgba(17, 17, 17, 0.986);
+}
+
+.estructura  h2,
+.estructura p{
+    color: rgba(17, 17, 17, 0.986);
+    text-align: center;
+}
+.estructura li {
+    list-style: decimal;
+}
+@media (max-width:60rem) {
+    .estructura__list {
+        width: 90%;
+        margin:0 auto;
+        text-align: justify;
+    }
+}

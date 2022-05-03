@@ -1,0 +1,36 @@
+.hero-banner {
+    height: 90vh;
+    padding-top: 6rem;
+    display: flex;
+    width: 100%;
+    background: #ff0000;
+}
+.hero-banner h2 {
+    font-size: 3.6rem;
+    color: #fafafa;
+}
+.hero-banner h3 {
+    color: #fafafa;
+}
+.hero-banner video {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+.hero-banner div {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+@media (max-width:60rem) {
+    .hero-banner video {
+        width: 100%;
+    }
+    .hero-banner div {
+        display: none;
+    }
+}

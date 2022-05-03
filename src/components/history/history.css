@@ -1,0 +1,29 @@
+.history__p {
+    padding: 6rem 0;
+    text-align: center;
+    background: #fafafa;
+}
+.history__p div video {
+    width: 70rem;
+}
+.history__p--container-info {
+    text-align: justify;
+}
+.history__p--container-info h2 {
+    font-size: 2rem;
+}
+.history__p--container-info ol {
+    margin-left: 6rem;
+}
+.history__p--container-info ol li{
+    list-style-type: upper-roman;
+    text-align: left;
+}
+
+@media (max-width:60rem) {
+
+    .history__p div video {
+        width: 90%;
+        border-radius: 1rem;
+    }
+}

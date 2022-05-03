@@ -1,0 +1,25 @@
+.navbar__container {
+    width: 100%;
+}
+.navigator{
+    text-align: center;
+}
+.navbar__container li {
+    width: 100%;
+    margin: 1rem 0;
+}
+.navbar__container li p {
+    width: 100%;
+    display: block;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.navbar__container li p:hover {
+    background: #db4040;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+.navbar__container li:last-child {
+    padding-bottom: 1rem;
+}
